@@ -11,7 +11,7 @@ class DisplayImage extends Frame{
 	}	
 	public void paint(Graphics g){
 		//loading image
-		Image img = Toolkit.getDefaultToolkit().getImage("Images/abc.jpg");
+		Image img = Toolkit.getDefaultToolkit().getImage("Images/adarsh.jpg");
 		//displaying image
 		g.drawImage(img,50,60,this);
 	}

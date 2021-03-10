@@ -9,14 +9,17 @@ public class House  extends Frame
     setSize(800,600);
     setVisible(true);
 
-    addWindowListener(new WindowAdapter()   {  // for frame closing 
+    addWindowListener(new WindowAdapter() 
+    { 
+            // for frame closing 
 	public void windowClosing( WindowEvent e )  {
  	  System.exit(0);
      } } ) ;
   }
-  public void paint( Graphics g )   {
+  public void paint( Graphics g )  
+  {
 
-    //   //home
+   //home
 
 g.drawRect (600,150,150,300);
 g.drawRect (430,130,160,20);
@@ -60,7 +63,7 @@ g.setColor (Color.green);
 g.fillRect (0,450,900,100);
   }
   public static void main(String args[])  {
-  //  just call the constructor
+  // call the constructor
     new House();   				
   }
 }
